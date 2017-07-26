@@ -1,0 +1,124 @@
+.upload_info tr:nth-child(even) {
+  background-color: #eee;
+}
+.upload_info tr:nth-child(odd) {
+  background-color: white;
+}
+.upload_info td:nth-child(2) {
+    width: 50%;
+}
+.upload_info td:nth-child(1) {
+    width: 5%;
+}
+.upload_info td {
+    width: 15%;
+}
+.upload_info td {
+    font-size: 12px;
+    padding: 10px 15px;
+}
+.upload_info .table_head td {
+    color: #ffb821;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.upload_info {
+    border: 1px solid #bbb;
+}
+.link_processing {
+    width: 45%;
+}
+.emu_tabs li{
+	display: inline-block;
+	margin-bottom: 0;
+}
+.emu_tabs li a {
+    background: #ffa500 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.emu_tabs {
+    border-bottom: 2px solid #ffa500;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.emu-content {
+    background: #fff none repeat scroll 0 0;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.emu-content textarea {
+    font-size: 13px;
+    padding: 10px;
+    width: 100%;
+}
+.emu_tabs .active {
+    background: #fff none repeat scroll 0 0;
+    color: #ffa500;
+    font-weight: bold;
+}
+.emu-content input[type="text"] {
+    width: 100%;
+}
+.emu-content tr th {
+    text-align: center;
+    text-transform: uppercase;
+}
+.save_to_post_success {
+    background: #9acd32 none repeat scroll 0 0;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.save_to_post_error {
+    background: #CD5C5C none repeat scroll 0 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+}
+.emu_options tr td label input {
+    margin: 0 5px;
+}
+.emu_options tr td label{
+    display: inline-block;
+    width: 20%;
+}
+.emu_stay_on_page {
+    background: #f08080 none repeat scroll 0 0;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.success_row td {
+    margin: 0;
+    padding: 0 10px;
+}
+.tr_line_br {
+    border-top: 1px solid #ddd;
+    margin-top: 15px !important;
+}
+.emu_options tr,.emu-content tr {
+    display: table;
+    margin: 0 auto;
+    width: 90%;
+}
+.direct_link_tr,.featured_image_tr,.file_extension_tr {
+    margin-top: 25px !important;
+}
+.tr_line_br th, .tr_line_br td {
+    padding-top: 30px;
+}
